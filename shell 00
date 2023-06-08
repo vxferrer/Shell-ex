@@ -1,0 +1,39 @@
+Aquí aprendimos a navegar con cd y ls. 
+No hay más código, en su lugar este documento será un glosario de comandos. 
+
+lista de comandos:
+
+CD [nombre de la carpeta a la que queramos entrar] - entrar a carpeta
+ej: cd folder01
+
+mkdir [nombre de la carpeta a crear] - crear carpeta
+ej: mkdir folder02
+
+CD .. - para retroceder en los archivos (como el botón de atrás/subir).
+
+LS - lista para ver los contenidos de una carpeta en terminal
+
+CAT - crear ficheros de texto. 
+ej: cat > hola.txt
+
+CP - copiar ficheros y carpetas
+ej: cp carta.txt carta_copia.txt (para crear la copia en el mismo directorio)
+ej2: cp /home/carta.txt /var/ (para copiar el fichero en un lugar específico, en este caso "var")
+
+RM / RM -R - para eliminar un fichero / un fichero con todo su contenido
+ej: rm hola.txt (para eliminar solo una cosa)
+ej2: rm -r folder02 (para eliminarlo con su contenido)
+
+
+VIM - entrar a un fichero para editarlo (entrar al modo vim)
+*IMPORTANTE EN MODO VIM*
+i - para poder editar el fichero
+esc - para salir de la edición
+:wq - para salir del modo vim y volver a la consola.
+
+bash - ejecutar un programa
+./[nombrearchivo].[ext] - otra forma de ejecutar programas
+
+chmod +x - ortorgar permisos a los ficheros
+ls -l - ver los permisos de un fichero
+
