@@ -1,0 +1,10 @@
+Entramos a la carpeta donde queramos.
+
+cat > count_files.sh
+Ls | wc -l
+
+con cntrl + d guardamos el contenido. 
+
+Ejecutamos con: ./count_files.sh
+
+Debería salir el resultado, en mi caso: 1. Porque no tengo más ficheros. 
