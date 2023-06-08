@@ -1,0 +1,17 @@
+#!/bin/bash
+
+for dir in $@
+do
+  if [ -d $dir ]
+  then
+    echo “La carpeta $dir ya existe.”
+else
+    mkdir ex$dir
+  fi
+done
+
+if [ $# -eq 0 ]
+then
+	echo "No arguments supplied"
+fi
+
