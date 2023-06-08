@@ -1,0 +1,7 @@
+Entramos a la carpeta donde queramos crear el fichero. 
+
+cat > Z
+
+dentro del fichero escribimos Z
+
+Cuando salimos, cada vez que escribimos cat Z, nos devolverá Z
