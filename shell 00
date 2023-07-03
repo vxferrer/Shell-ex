@@ -3,6 +3,8 @@ No hay más código, en su lugar este documento será un glosario de comandos.
 
 lista de comandos:
 
+pwd: Para saber donde estamos en el ordenador. 
+
 CD [nombre de la carpeta a la que queramos entrar] - entrar a carpeta
 ej: cd folder01
 
